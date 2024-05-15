@@ -14,6 +14,8 @@
   </head>
   <body class="page">
     <header class="header">
+      <span class="header__text">&lt;/html&gt;</span>
+      <h1 class="header__title">закрывающий тег</h1>
       <nav class="theme-menu header__theme-menu">
         <!-- Не меняйте разметку этого списка, иначе скрипты перестанут работать -->
         <ul class="theme-menu__list">
@@ -40,7 +42,43 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <article class="card">
+        <h2 class="card__title">
+          Фритрек и нулевой спринт: Подготовка к работе
+        </h2>
+        <div class="card__image-block">
+          <span class="image-link" aria-hidden="true">&lt;/HTML&gt;</span>
+          <img class="card__image" src="./images/image.png" alt="Автобус" />
+        </div>
+        <div class="card__text__block">
+          <p class="card__text">
+            Это было самое начало пути. На этом этапе важно было проникнуться
+            основами и настроиться на учёбу. И, возможно, подумать, как новые
+            знания могут повлиять на ваше будущее.
+          </p>
+          <p class="card__text">Скорее бы начать!</p>
+        </div>
+        <div class="card__button">
+          <button class="card__icon-button" type="button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="27"
+              height="24"
+              fill="none"
+            >
+              <path
+                fill="#000"
+                d="M6 0H3v3h3V0Zm3 0H6v3h3V0ZM3 3H0v3h3V3Zm0 3H0v3h3V6Zm0 3H0v3h3V9Zm9-9H9v3h3V0ZM6 12H3v3h3v-3Zm3 3H6v3h3v-3Zm3 3H9v3h3v-3Zm9-18h3v3h-3V0Zm-3 0h3v3h-3V0Zm6 3h3v3h-3V3Zm0 3h3v3h-3V6Zm0 3h3v3h-3V9Zm-9-9h3v3h-3V0Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0-15h-3v3h3V3Zm0 18h-3v3h3v-3Z"
+              />
+            </svg>
+          </button>
+          <button class="card__like-button">
+            <span class="button__text">Like</span>
+          </button>
+        </div>
+      </article>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
