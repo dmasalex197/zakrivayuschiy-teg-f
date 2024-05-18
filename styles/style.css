@@ -214,7 +214,7 @@
   align-items: center;
   gap: 6px;
   padding-inline-end: 25px;
-  padding-block-end: 27px;
+  padding-block-end: 22px;
   padding-block-start: 25px;
 }
 
@@ -256,6 +256,26 @@
   cursor: pointer;
 }
 
+.card__button-accent {
+  border: 2px solid var(--accent-color);
+  background-color: var(--background-color);
+  position: relative;
+  transition: box-shadow 0.3s;
+}
+
+.card__button-accent::before {
+  content: "";
+  position: absolute;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-color);
+  inset-inline-start: 0;
+  inset-block-end: 0;
+  transform: scaleX(0);
+  transform-origin: 0;
+}
+
 .card__button-accent:focus {
   outline: none;
 }
@@ -267,6 +287,10 @@
 .card__button-accent:hover::before {
   transform: scaleX(1);
   cursor: pointer;
+}
+
+.sparks {
+  opacity: 0;
 }
 
 .button__save {
