@@ -144,7 +144,7 @@
   right: 25px;
   opacity: 0.5;
   mix-blend-mode: hard-light;
-  text-shadow: 0 0 2px var(--shadow);
+  text-shadow: 0 0 1px var(--color-image-link);
 }
 
 @supports (-webkit-text-stroke: 1px var(--color-image-link)) or

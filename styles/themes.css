@@ -28,6 +28,7 @@
   --button-color: #00cc14;
   --accent-font-weight: 785;
   --main-font-weight: 465;
+  --color-image-link: #000000;
 }
 
 @media (prefers-color-scheme: light) {
@@ -56,5 +57,6 @@
     --button-color: #00cc14;
     --accent-font-weight: 785;
     --main-font-weight: 465;
+    --color-image-link: #000000;
   }
 }
